@@ -1,0 +1,37 @@
+build/*
+red.flowmon
+build*
+.lock-wscript
+*.log
+*.thru
+*.pcap
+*.tr
+*.txt
+*.pyc
+.dpkg-source-applied
+*.[oa]
+Makefile*
+*.pdf
+*tcl/test*
+*indep-utils*
+*.waf*
+*.hg*
+*tmp*
+doc/*
+doc
+ns
+nse
+nstk
+ns-autoconf.tcl
+gen
+config.*
+#!config.sub
+#!config.guess
+*ptypes2tcl*
+!config.cc
+!config.h
+
+# ignore generated html files,
+*.html
+# except foo.html which is maintained by hand
+##!foo.html
